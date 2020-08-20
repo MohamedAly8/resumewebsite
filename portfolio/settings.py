@@ -25,7 +25,7 @@ SECRET_KEY = 'gao2_r!ifjv3pz+lm+b057zy^+_m3w5ah&sc=d0j%m3b=g7(wq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [*]
 
 
 # Application definition
