@@ -11,11 +11,19 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v4.1.1">
+
     <title>Mohamed Aly</title>
+    <link href='https://fonts.googleapis.com/css?family=Berkshire+Swash' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Electrolize&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Changa&display=swap" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- Favicons -->
 <link rel="apple-touch-icon" href="/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
@@ -46,18 +54,22 @@
     </style>
     <!-- Custom styles for this template -->
     <link href="album.css" rel="stylesheet">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/c52225fdf0.js"></script>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="{% url 'home'%}">Mohamed Aly</a>
+        <a style="font-family:fantasy;" class="navbar-brand" href="{% url 'home'%}">Mohamed Aly</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item ">
-              <a class="nav-link " href="https://www.linkedin.com/in/mohamed-aly08/" target="_blank">LinkedIn </a>
+              <a class="nav-link "  href="https://www.linkedin.com/in/mohamed-aly08/" target="_blank">LinkedIn </a>
             </li>
             <li class="nav-item">
               <a class="nav-link " href="{% static 'Resumé Final (2) copy.pdf' %}" target="_blank">Resume</a>
@@ -71,8 +83,32 @@
 
   <section class="jumbotron text-center">
     <div class="container">
-      <h1>Hi, I'm Mohamed</h1>
+
+    <head>
+    <style>
+    img {
+      border-radius: 50%;
+    }
+    </style>
+    </head>
+    <body>
+
+    <img class="img-fluid  float-right" src="{% static 'Profile Picture.png' %}" alt='Avatar'>
+    </body>
+
+
+
+      <h1 class="intro text-center">Hi, I'm Mohamed</h1>
       <p class="lead text-muted">McMaster Software Engineering Class of 2024</p>
+      <h1>
+        <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im VipulM.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
+          <span class="wrap"></span>
+        </a>
+      </h1>
+
+
+        <p class="typewrite" data-period='300' data-type='["Web Developing","Machine Learning","Data Science","Software Development"]'>
+      <br>
       <p>
         <a href="https://www.linkedin.com/in/mohamed-aly08/" target="_blank" class="btn btn-primary btn-lg">LinkedIn</a>
         <a href="{% static 'Resumé Final (2) copy.pdf' %}" target="_blank" class="btn btn-primary btn-lg">Resume</a>
@@ -83,8 +119,21 @@
 
       </p>
 
-      <img src="{% static '117409751_624707004824681_3470197772142631901_n.jpg' %}" width="500"/>
-    </div>
+      <h6>
+        <p class="typewrite" data-period="300" data-type='[ "I love Python Programming", "Software Developer", "Data Science", "Machine Learning", "Tableau Developer"]'>
+      </h6>
+
+
+
+    <br>
+    <br>
+
+
+
+
+
+
+
   </section>
 
 
